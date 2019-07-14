@@ -1,13 +1,14 @@
-def welcome
-  # code #welcome here
+def welcome =
+  puts "Welcome to the Black Jack Table"
 end
 
-def deal_card
-  # code #deal_card here
+def deal_card =
+  > 0
+ 
 end
 
-def display_card_total
-  # code #display_card_total here
+def display_card_total =
+  7
 end
 
 def prompt_user
@@ -22,16 +23,17 @@ def end_game
   # code #end_game here
 end
 
-def initial_round
-  # code #initial_round here
+def initial_round =
+  12
 end
 
-def hit?
-  # code hit? here
+def hit? =
+  "h"
 end
 
-def invalid_command
-  # code invalid_command here
+def invalid_command =
+  $stdout
+  :puts "Please enter a valid command"
 end
 
 #####################################################
